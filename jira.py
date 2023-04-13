@@ -16,15 +16,15 @@ initial = "provide me jira story content only with sub-headings Summary , Descri
 
 # Authorization
 
-api_key_chatgpt = "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"
-api_key = "c2hpdmFtLmd1cHRhQHVrZy5jb206QVRBVFQzeEZmR0YwNU9hUlVvM3dzSmQwV2xkeFFvdHYwek02LUYtSjJEUUJxeEp5Qy1CVVFrYnlsbUpGRDRJSFZ2MjBHZHpIVld4OUNXZkNKTWxIMG54RFZBb1pHWEk1eEFZNU02UkJCODdnWElDN1BVQmRhMXJldS1lR2gxRWNHV3hDZzN6dTExUzAxMnBJMll3MzFpMGlNTlpNRDhYUGQwUTZsdzdnRmQtWVNPNlREMkVtVmtzPTk4MzkzODQ0"
+api_key_chatgpt = "Chat_GPT-Key"
+api_key = "Jira-Key"
 
 # reading excel sheet
 
 dataframe1 = pd.read_excel('story.xlsx')
 topic_list = dataframe1['Topics'].tolist()
 
-# method tp get chatgpt response
+# method to get chatgpt response
 
 
 def chat_with_chatgpt(prompt):
